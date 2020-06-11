@@ -92,7 +92,7 @@ class DatatableController extends AbstractController
      *
      * @param string $entityClassName
      */
-    private function getEntityByPk($entityClassName, $pk): object
+    private function getEntityByPk($entityClassName, $pk)
     {
         $em = $this->getDoctrine()->getManager();
 
